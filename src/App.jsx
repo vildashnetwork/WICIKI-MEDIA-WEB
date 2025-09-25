@@ -59,7 +59,6 @@ function AppContent() {
 
   const location = useLocation();
   const navigate = useNavigate();
-  const currentPage = location.pathname === '/' ? 'gists' : location.pathname.substring(1);
   const hideLayout = location.pathname === "/login" || location.pathname === "/questions";
 
   const handleCreatePost = (post) => {
