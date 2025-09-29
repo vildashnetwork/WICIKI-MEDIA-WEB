@@ -8,7 +8,7 @@ import ReelsFullscreenOverlay from './components/ReelsOverlay/ReelsFullscreenOve
 import GistsPage from './pages/Gists/GistsPage';
 import ProfilePage from './pages/Profilepage/ProfilePage';
 import VibesPage from './pages/Vibespage/VibesPage';
-import ReachoutsPage from './pages/Reachoutpage/ReachoutsPage';
+// import ReachoutsPage from './pages/Reachoutpage/ReachoutsPage';
 import NotificationsPage from './pages/Notification/NotificationsPage';
 import SearchPage from './pages/SearchPage/SearchPage';
 import SettingsPage from './pages/Settingspage/SettingsPage';
@@ -124,7 +124,7 @@ function AppContent() {
               <Route path="/" element={<ProtectedRoute><GistsPage onLike={handleLike} onComment={handleComment} /></ProtectedRoute>} />
               <Route path="/profile" element={<ProtectedRoute><ProfilePage /></ProtectedRoute>} />
               <Route path="/vibes" element={<ProtectedRoute><VibesPage /></ProtectedRoute>} />
-              <Route path="/reachouts" element={<ProtectedRoute><ReachoutsPage /></ProtectedRoute>} />
+              {/*<Route path="/reachouts" element={<ProtectedRoute><ReachoutsPage /></ProtectedRoute>} />*/}
               <Route path="/notifications" element={<ProtectedRoute><NotificationsPage /></ProtectedRoute>} />
               <Route path="/search" element={<ProtectedRoute><SearchPage /></ProtectedRoute>} />
               <Route path="/settings" element={<ProtectedRoute><SettingsPage /></ProtectedRoute>} />
