@@ -13,7 +13,7 @@ import './components/ReelsOverlay/ReelsOverlay.css';
 import './pages/Gists/Gists.css';
 import './pages/Profilepage/Profile.css';
 import './pages/Reelspage/ReelsPage.css';
-// import './pages/Reachoutpage/Reachout.css';
+import './pages/Reachoutpage/Reachout.css';
 import './pages/Notification/Notification.css';
 import './pages/SearchPage/Search.css';
 import './pages/Settingspage/Settings.css';
